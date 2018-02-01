@@ -1,0 +1,151 @@
+body,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
+body{font:normal 14px Microsoft YaHei,Tahoma,simsun;}
+img{border:0;vertical-align:middle}
+ul{list-style-type:none;}
+a{color: inherit;text-decoration:none;}
+::-webkit-input-placeholder {color:#999;}
+:-moz-placeholder {color:#999;}
+::-moz-placeholder {color:#999;}
+:-ms-input-placeholder {color:#999;}
+ .clear:after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    visibility:hidden;
+    clear:both;
+}
+.clear{
+zoom:1;
+}
+body{
+	width: 100%;
+	min-width: 1200px;
+	background-color: #fef8e7;
+}
+.guanwang {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -513px;
+}
+.mgrz {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -380px;
+}
+.kefu-phone {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-right: -420px;
+}
+.head {
+    position: relative;
+    background-color: #172c3c;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+}
+.banner {
+    width: 100%;
+    height: 274px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url(../images/NFA_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+.content{
+	width: 900px;margin: 0 auto;
+    position: relative;
+}
+.nfa_03{
+    position: absolute;
+    top: 6%;
+    left: 70%;
+    width: 220px;
+    height: 293px;
+}
+.content h1{
+    margin: 30px 0 20px 83px;
+    font-size: 49px;
+    color: #2b2b2b;
+}
+.content .title{
+    margin: -17px 0 24px 145px;
+    font-size: 33px;
+    color: #2b2b2b;
+    position: relative;
+}
+.content .title b{
+    position: absolute;
+    height: 2px;
+    background: #2b2b2b;
+    display: block;
+    width: 61px;
+    top: 45%;
+    left: -66px;
+}
+.content .title b:last-child{
+    left: 267px;
+}
+.content_list{
+    margin-left: 77px;
+}
+.content_list>dt{
+    float: left;
+    height:60px ;
+    width: 68px;
+}
+.content_list>dd{
+    font-size: 17px;
+    float: left;
+    height:60px ;
+    width: 694px;
+    line-height: 60px;
+}
+.linear{
+    width: 846px;
+    height: 1px;
+    background: #082753;
+    display: block;
+    margin-top: 33px;
+}
+.yezi{
+    margin: 44px 0 90px 77px;
+}
+.yezi>div{
+    float: left;
+    font-size: 17px;
+    margin-left: 16px;
+}
+.lastContent>div{
+    float: left;
+    display: block;
+    text-align: center;
+}
+.lastContent>div>dl{
+    width: 190px;
+    margin: 0 auto;
+    margin-right: 90px;
+}
+.lastContent>div>dl>dt>img{
+   margin-left: 28px;
+}
+.lastContent>div>dl>dt{
+    margin-bottom: 36px;
+}
+.lastContent>div>dl>dd{
+padding-left: 29px;}
+/*右侧悬浮客服*/
+.kefu-group{display:block;width: 170px;height:300px;position: fixed;right: 0;top: 30%;z-index: 99998;display: none}
+.kefu-group .kefu-group-inner{width: 170px;height:300px;position: relative}
+.kefu-group-btn{position: fixed;right: -5px;top: 28%;z-index: 99999;cursor: pointer}
+.active{display: block}
+/*底部*/
+.jy-footer{ width:100%; height:130px; background:#172c3c;}
+.jy-footer .footer_div{  width:970px;  margin:0 auto;  overflow: hidden;  background:#172c3c; height:121px;  }
+.jy-footer .footer_div  p{  padding-top: 40px;  color:#fff;  font-size:12px;  text-align: center  }
+.jy-footer .footer_div  p a{  color:#fff;}
